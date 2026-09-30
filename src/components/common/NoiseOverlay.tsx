@@ -1,0 +1,8 @@
+export function NoiseOverlay() {
+  return (
+    <div
+      className="fixed inset-0 pointer-events-none z-50 grain-overlay mix-blend-overlay opacity-30"
+      aria-hidden="true"
+    />
+  );
+}
